@@ -13,6 +13,7 @@ function App() {
             </ul>
 
             <Switch>
+                {/* replace Route to ApmRoute */}
                 <Route path="/other" component={Test} />
                 <Route path="/" component={Test} />
             </Switch>
